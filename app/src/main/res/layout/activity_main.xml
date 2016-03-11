@@ -10,15 +10,21 @@
     android:background="#1B6197"
     tools:context="com.project2016.lfspersson.socialbasetest1.MainActivity">
 
-    <TextView
+<!--    <TextView
         android:id="@+id/tvTit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SocialBase"
         android:textColor="#FFFFFF"
         android:textSize="12pt"
-        android:layout_marginBottom="30dp"/>
+        android:layout_marginBottom="30dp"/>-->
 
+    <ImageView
+        android:id="@+id/tvTit"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:layout_marginBottom="15dp"/>
 
     <Button
         android:id="@+id/btnConsultaInscritos"
@@ -32,13 +38,24 @@
         android:layout_marginBottom="15dp"/>
 
     <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#155383"
+        android:textColor="#FFFFFF"
+        android:text="REALIZAR INSCRIÇÃO"
+        android:layout_below="@id/btnConsultaInscritos"
+        android:onClick="onClick_btnCadastrar"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
         android:id="@+id/btnSobre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#155383"
         android:textColor="#FFFFFF"
         android:text="SOBRE O DESENVOLVEDOR"
-        android:layout_below="@id/btnConsultaInscritos"
+        android:layout_below="@id/btnCadastrar"
         android:onClick="onClick_btnSobreDev"/>
 
 </RelativeLayout>

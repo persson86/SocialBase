@@ -7,7 +7,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="SocialBase"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -19,8 +19,8 @@
         </activity>
         <activity android:name=".ListaInscritos" />
         <activity android:name=".InscritoDetalhe" />
-        <activity android:name=".test" />
-        <activity android:name=".SobreDev"></activity>
+        <activity android:name=".SobreDev" />
+        <activity android:name=".Cadastrar"></activity>
     </application>
 
 </manifest>

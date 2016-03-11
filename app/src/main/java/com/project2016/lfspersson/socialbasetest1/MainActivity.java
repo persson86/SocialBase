@@ -35,4 +35,9 @@ public class MainActivity extends Activity {
         it = new Intent(this,SobreDev.class);
         startActivity(it);
     }
+
+    public void onClick_btnCadastrar(View view) {
+        it = new Intent(this,Cadastrar.class);
+        startActivity(it);
+    }
 }
