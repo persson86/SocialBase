@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".ListaInscritos" />
         <activity android:name=".InscritoDetalhe" />
-        <activity android:name=".test"></activity>
+        <activity android:name=".test" />
+        <activity android:name=".SobreDev"></activity>
     </application>
 
 </manifest>

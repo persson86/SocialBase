@@ -32,5 +32,7 @@ public class MainActivity extends Activity {
     }
 
     public void onClick_btnSobreDev(View view) {
+        it = new Intent(this,SobreDev.class);
+        startActivity(it);
     }
 }
